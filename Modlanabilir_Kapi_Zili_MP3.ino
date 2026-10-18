@@ -28,7 +28,7 @@ void setup() {
   if (!SPIFFS.begin(false)) {
     Serial.println("HATA: SPIFFS ACILAMADI!");
     return;
-  }.
+  }
 
   Serial.println("SPIFFS HAZIR!");
 
